@@ -10,8 +10,8 @@ conn = sqlite3.connect("test1.db")
 cursor = conn.cursor()
 main = "Password Manager/"
 
-account_sid = '#################################'
-auth_token = '#################################'
+account_sid = '#################################' #enter your twilio account_sid
+auth_token = '#################################'  #enter your twilio auth_token
 client = Client(account_sid, auth_token)
 
 
