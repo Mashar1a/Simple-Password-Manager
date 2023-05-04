@@ -240,7 +240,7 @@ class Display:
         message = client.messages.create(
             from_='##########',
             body="UserNAme:" + webstring + "\n" "Password:" + passtring + "\n" "Account Info:" + description,
-            to='##########'
+            to='##########'    # registered twilio number
         )
 
         print(message.sid)
